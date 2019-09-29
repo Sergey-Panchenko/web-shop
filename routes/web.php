@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/get-goods', function () {
+    return file_get_contents("goods.json");
+});
