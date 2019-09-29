@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/get-goods', function () {
     return file_get_contents("goods.json");
 });
+Route::get('/get-goods-test', function () {
+    return ;
+});
